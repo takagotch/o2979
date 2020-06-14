@@ -3,7 +3,7 @@
 
 @charset "utf-8";
 
-$asset_url: '{{ '/assets/css' | prepend: site.baseurl }}';
+$asset_url: '{{ '/assets/css/main.scss' | prepend: site.baseurl }}';
 
 @import 
   "reset",
